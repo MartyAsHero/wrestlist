@@ -1,0 +1,26 @@
+@import url('https://fonts.googleapis.com/css2?family=Anton&family=Inter:wght@400;500;600;700&family=IBM+Plex+Mono:wght@500;600&display=swap');
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+html, body {
+  background-color: #100D0B;
+  color: #F3ECE2;
+}
+
+::selection {
+  background: #D8A83D;
+  color: #100D0B;
+}
+
+.ticket-dashed {
+  border-bottom: 1px dashed #35291F;
+}
+
+@media (prefers-reduced-motion: reduce) {
+  * {
+    animation: none !important;
+    transition: none !important;
+  }
+}
